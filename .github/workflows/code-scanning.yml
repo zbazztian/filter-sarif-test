@@ -21,6 +21,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - run: python --version
+    
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
